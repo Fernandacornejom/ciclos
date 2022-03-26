@@ -1,7 +1,5 @@
-puts 'Ingrese un número para comenzar la cuenta:'
-cuenta_regresiva = gets.to_i
-puts "Contando desde #{cuenta_regresiva}..."
-while cuenta_regresiva >= 0
-    puts cuenta_regresiva
-    cuenta_regresiva -= 1
-end 
+50.times do |i|
+    puts "Iteración #{i}"
+end
+
+50.times {|i| puts "iteración #{i}"}
